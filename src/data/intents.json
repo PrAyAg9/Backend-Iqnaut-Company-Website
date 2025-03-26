@@ -1,0 +1,31 @@
+{
+    "intents": [
+      {
+        "tag": "course_inquiry",
+        "patterns": [
+          "Tell me about your courses",
+          "What courses do you offer?",
+          "I need course details",
+          "Show me the course catalog",
+          "What training programs are available?"
+        ],
+        "responses": [
+          "We offer a variety of courses including Full Stack Javascript Development, Python & Cloud Computing, Flutter Development, AI ML Professional, Generative AI Professional, and Data Science Professional. Would you like to enroll in any of these courses?"
+        ]
+      },
+      {
+        "tag": "course_enrollment",
+        "patterns": [
+          "I want to enroll in a course",
+          "Sign me up for a course",
+          "How do I enroll?",
+          "I would like to take the course",
+          "Enroll me"
+        ],
+        "responses": [
+          "Great! Please specify the course by its title or ID. Our available courses are:\n1. Full Stack Javascript Development\n2. Python & Cloud Computing\n3. Flutter Development\n4. AI ML Professional\n5. Generative AI Professional\n6. Data Science Professional"
+        ]
+      }
+    ]
+  }
+  
